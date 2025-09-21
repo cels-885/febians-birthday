@@ -5,6 +5,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 .song {
@@ -18,7 +19,7 @@ body {
   position: relative;
   text-align: center;
   visibility: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 .container > div {
@@ -83,7 +84,7 @@ body {
 }
 
 .five .idea-5 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .idea-5 span, .idea-6 span, .wish-hbd span {
@@ -137,7 +138,7 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .eight svg {
@@ -210,7 +211,7 @@ body {
 }
 
 .wish h5 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: lighter;
   margin: 10px 0 0;
 }
@@ -252,11 +253,23 @@ body {
 
 @media screen and (max-width: 500px) {
   .container {
-    width: 90%;
+    width: 100%;
+  }
+
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+    width: 88%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .four .text-box {
     width: 90%;
+    top: -5vh;
+  }
+
+  .five{
+    width: 70%;
   }
 
   .text-box .fake-btn {
@@ -273,7 +286,7 @@ body {
   }
 
   .six .hat {
-    /* top: -20px; */
+    top: -130px;
     width: 50px;
   }
 
@@ -282,7 +295,7 @@ body {
   }
 
   .wish h5 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .nine p {
